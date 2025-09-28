@@ -8,8 +8,8 @@
 ## 📘 Overview
 
 This project focuses on **high-performance computing (HPC)** for **aerodynamic optimization**, leveraging **Computational Fluid Dynamics (CFD)** and **Finite Element Methods (FEM)** to solve large-scale simulations efficiently.  
-Through a series of exercises, we solve fundamental PDEs, study lift and drag behavior, and simulate 3D airflow around a Boeing 767 to understand how geometry and meshing affect aerodynamic performance.---
-
+Using **OpenMPI** for distributed parallelization and running simulations on the DCE cluster at Centrale 
+Supélec, we accelerate PDE solvers, analyze lift and drag behavior under varying conditions, and perform 3D airflow simulations around a Boeing 767 to investigate how geometry, discretization, and meshing strategies influence aerodynamic performance.
 ## 🛠️ Tools & Technologies
 
 - **FEniCSx + MPI (OpenMPI)** – Parallel finite element solver for large-scale PDE simulations  
