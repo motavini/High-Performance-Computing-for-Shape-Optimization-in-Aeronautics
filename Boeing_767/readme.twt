@@ -1,0 +1,78 @@
+28/03/2025
+The deliverables for the ONERA ST7 are included in this folder, developed by group 2.
+Analysis was performed on Boeing 767; an American wide-body airliner.
+
+Contained within "3D_Models_Boeing_767" is:
+    \--- the original model of the plane
+    \--- the stl file of the skin of the model
+
+Four meshes were developed, ranging from 1, the most coarse, to 4, the most fine.
+Within each mesh_refinement_level_X, there is:
+\--------- the stl file and the vtk file of the skin of the model
+\--------------- Simulation results for each inclination around the plane 
+                (-60,-40,-20,0,20,40,60)
+\----------------------- the vtk file (in unstructured mesh and ASCII
+format) of the volume of the model
+\----------------------- a .bp folder of the results of the 3D simulation (pressure and velocity fields)
+            The .bp file can be opened in paraview by opening the folder itself through paraview.
+
+Within Scripts, there exists the python files used to obtain the results of
+    the 3D simulations. In particular, the main.py script was used primarily to run the 
+    stokes solver in parallel on the CentraleSupelec DCE clusters.
+
+Boeing_767/
+├── 3D_Models_Boeing_767/
+│   ├── Boeing_767.stl
+│   ├── Boeing_767.vtk
+│   ├── Original_Model_Boeing_767.obj
+│   ├── Simplified_Model_Boeing_767.obj
+├── mesh_refinement_level_1/
+│   ├── Boeing_767_1_skin_mesh.stl
+│   ├── Boeing_767_1_skin_mesh.vtk
+│   ├── boeing_results_1.csv
+│   ├── boeing_1_simulation_results/
+│   │   ├── -20/
+│   │   │   ├── pressure_boeing_1_-20.bp/
+│   │   │   ├── velocity_boeing_1_-20.bp/
+│   │   ├── -40/
+│   │   ├── -60/
+│   │   ├── 0/
+│   │   ├── 20/
+│   │   ├── 40/
+│   │   ├── 60/
+│   └── boeing_1_volume_mesh_vtk/
+│       ├── boeing_1_-20.vtk
+│       ├── ...
+├── mesh_refinement_level_2/
+│   ├── Boeing_767_2_skin_mesh.stl
+│   ├── Boeing_767_2_skin_mesh.vtk
+│   ├── boeing_results_2.csv
+│   ├── boeing_2_simulation_results/
+│   │   ├── ...
+│   └── boeing_2_volume_mesh_vtk/
+│       ├── ...
+├── mesh_refinement_level_3/
+│   ├── Boeing_767_3_skin_mesh.stl
+│   ├── Boeing_767_3_skin_mesh.vtk
+│   ├── boeing_results_3.csv
+│   ├── boeing_3_simulation_results/
+│   │   ├── ...
+│   └── boeing_3_volume_mesh_vtk/
+│       ├── ...
+├── mesh_refinement_level_4/
+│   ├── Boeing_767_4_skin_mesh.stl
+│   ├── Boeing_767_4_skin_mesh.vtk
+│   ├── boeing_results_4.csv
+│   ├── boeing_4_simulation_results/
+│   │   ├── ...
+│   └── boeing_4_volume_mesh_vtk/
+│       ├── ...
+├── Scripts/
+│   ├── generate_meshes.py
+│   ├── main.py
+│   ├── run_simulations.py
+│   └── UNUSED_MeshSTL.geo
+└── README.md
+
+
+Hugo Gandhi, Sushant Patil, and Vinıcius da Mata e Mota

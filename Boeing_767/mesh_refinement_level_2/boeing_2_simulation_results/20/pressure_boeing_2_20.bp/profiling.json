@@ -1,0 +1,18 @@
+[
+{ "rank": 0, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 199514, "mkdir_mus": 63996, "aggregation_mus": 0, "meta_sort_merge_mus": 186, "minmax_mus": 106, "memcpy_mus": 9, "buffering_mus": 525, "transport_0": { "type": "File_POSIX", "close_mus": 24993, "write_mus": 2895, "open_mus": 12162}, "transport_1": { "type": "File_POSIX", "close_mus": 0, "write_mus": 23, "open_mus": 10258} },
+{ "rank": 1, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 198765, "mkdir_mus": 95977, "aggregation_mus": 0, "meta_sort_merge_mus": 12, "minmax_mus": 104, "memcpy_mus": 9, "buffering_mus": 248 },
+{ "rank": 2, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 198599, "mkdir_mus": 100002, "aggregation_mus": 0, "meta_sort_merge_mus": 13, "minmax_mus": 104, "memcpy_mus": 10, "buffering_mus": 239 },
+{ "rank": 3, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 200291, "mkdir_mus": 135982, "aggregation_mus": 0, "meta_sort_merge_mus": 12, "minmax_mus": 103, "memcpy_mus": 9, "buffering_mus": 220 },
+{ "rank": 4, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 197673, "mkdir_mus": 94989, "aggregation_mus": 0, "meta_sort_merge_mus": 13, "minmax_mus": 96, "memcpy_mus": 9, "buffering_mus": 272 },
+{ "rank": 5, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 201874, "mkdir_mus": 67973, "aggregation_mus": 0, "meta_sort_merge_mus": 13, "minmax_mus": 105, "memcpy_mus": 9, "buffering_mus": 224 },
+{ "rank": 6, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 202556, "mkdir_mus": 56089, "aggregation_mus": 0, "meta_sort_merge_mus": 14, "minmax_mus": 103, "memcpy_mus": 9, "buffering_mus": 339 },
+{ "rank": 7, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 203856, "mkdir_mus": 99985, "aggregation_mus": 0, "meta_sort_merge_mus": 14, "minmax_mus": 108, "memcpy_mus": 10, "buffering_mus": 278 },
+{ "rank": 8, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 206641, "mkdir_mus": 67954, "aggregation_mus": 0, "meta_sort_merge_mus": 127942, "minmax_mus": 105, "memcpy_mus": 9, "buffering_mus": 128237 },
+{ "rank": 9, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 208107, "mkdir_mus": 130985, "aggregation_mus": 0, "meta_sort_merge_mus": 17, "minmax_mus": 98, "memcpy_mus": 11, "buffering_mus": 231 },
+{ "rank": 10, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 208845, "mkdir_mus": 103003, "aggregation_mus": 0, "meta_sort_merge_mus": 31981, "minmax_mus": 102, "memcpy_mus": 9, "buffering_mus": 32311 },
+{ "rank": 11, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 205325, "mkdir_mus": 104003, "aggregation_mus": 0, "meta_sort_merge_mus": 12, "minmax_mus": 106, "memcpy_mus": 9, "buffering_mus": 220 },
+{ "rank": 12, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 204122, "mkdir_mus": 55998, "aggregation_mus": 0, "meta_sort_merge_mus": 92965, "minmax_mus": 106, "memcpy_mus": 9, "buffering_mus": 93275 },
+{ "rank": 13, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 202243, "mkdir_mus": 79981, "aggregation_mus": 0, "meta_sort_merge_mus": 12, "minmax_mus": 107, "memcpy_mus": 9, "buffering_mus": 234 },
+{ "rank": 14, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 197778, "mkdir_mus": 68000, "aggregation_mus": 0, "meta_sort_merge_mus": 32980, "minmax_mus": 102, "memcpy_mus": 10, "buffering_mus": 33272 },
+{ "rank": 15, "start": "Sat_Mar_29_16:38:26_2025", "threads": 1, "bytes": 200302, "mkdir_mus": 99985, "aggregation_mus": 0, "meta_sort_merge_mus": 13, "minmax_mus": 103, "memcpy_mus": 9, "buffering_mus": 342 }
+]
