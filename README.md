@@ -7,10 +7,7 @@
 
 ## 📘 Overview
 
-Here’s a revised version with the **cluster execution** included smoothly:
-
-> This project focuses on **high-performance computing (HPC)** approaches to **aerodynamic optimization**, leveraging **Computational Fluid Dynamics (CFD)** and **Finite Element Methods (FEM)** to solve large-scale flow simulations. Using **OpenMPI** for distributed parallelization and running simulations on an **HPC cluster**, we accelerate PDE solvers, analyze lift and drag behavior under varying conditions, and perform 3D airflow simulations around a Boeing 767 to investigate how geometry, discretization, and meshing strategies influence aerodynamic performance.
-e.
+This project focuses on **high-performance computing (HPC)** approaches to **aerodynamic optimization**, leveraging **Computational Fluid Dynamics (CFD)** and **Finite Element Methods (FEM)** to solve large-scale flow simulations. Using **OpenMPI** for distributed parallelization and running simulations on an **HPC cluster**, we accelerate PDE solvers, analyze lift and drag behavior under varying conditions, and perform 3D airflow simulations around a Boeing 767 to investigate how geometry, discretization, and meshing strategies influence aerodynamic performance.
 ---
 
 ## 🛠️ Tools & Technologies
